@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da8d3c7-3415-45f6-8f5b-7e8dbfe5f70c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_config_spring_boot_autoconfigure_0_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_config_spring_boot_starter_0_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_spring_boot_base_0_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_spring_context_0_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-payment/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-ticket/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-eureka/spring-cloud-service-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-eureka/spring-cloud-service-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/java/com/example/spring/cloud/service/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/java/com/example/spring/cloud/service/eureka/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/config/spring-cloud-service-eureka/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-payment/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-payment/spring-cloud-service-payment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-payment/spring-cloud-service-payment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-payment/src/main/java/com/example/spring/cloud/service/payment/ServicePaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-payment/src/main/java/com/example/spring/cloud/service/payment/ServicePaymentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-payment/src/main/java/com/example/spring/cloud/service/payment/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-payment/src/main/java/com/example/spring/cloud/service/payment/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-payment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/config/spring-cloud-service-payment/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-ticket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-ticket/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-ticket/spring-cloud-service-ticket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-ticket/spring-cloud-service-ticket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-ticket/src/main/java/com/example/spring/cloud/service/ticket/ServiceTicketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-ticket/src/main/java/com/example/spring/cloud/service/ticket/ServiceTicketApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-ticket/src/main/java/com/example/spring/cloud/service/ticket/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-ticket/src/main/java/com/example/spring/cloud/service/ticket/controller/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-ticket/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/config/spring-cloud-service-ticket/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-user/spring-cloud-service-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-user/spring-cloud-service-user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-user/src/main/java/com/example/spring/cloud/service/user/ServiceUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-user/src/main/java/com/example/spring/cloud/service/user/ServiceUserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-user/src/main/java/com/example/spring/cloud/service/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-user/src/main/java/com/example/spring/cloud/service/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/config/spring-cloud-service-user/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/example/spring/cloud/zuul/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/example/spring/cloud/zuul/ZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/config/spring-cloud-zuul/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,8 +185,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceTicketApplication" />
         <item itemvalue="Spring Boot.ServiceUserApplication" />
+        <item itemvalue="Spring Boot.ServiceTicketApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -238,7 +195,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.19264069" />
+          <option name="contentProportion" value="0.17045455" />
           <treeState>
             <expand>
               <path>
@@ -376,6 +333,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring-cloud-dependencies" />
     <MESSAGE value="eureka服务端" />
@@ -419,38 +387,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589431091280" />
-    <state width="1491" height="373" key="GridCell.Tab.0.bottom" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.0.bottom" timestamp="1589459561624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
-    <state width="1491" height="373" key="GridCell.Tab.0.center" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561624" />
+    <state width="1532" height="336" key="GridCell.Tab.0.center" timestamp="1589459561624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.0.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
-    <state width="1491" height="373" key="GridCell.Tab.0.left" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.0.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561624" />
+    <state width="1532" height="336" key="GridCell.Tab.0.left" timestamp="1589459561624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.0.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
-    <state width="1491" height="373" key="GridCell.Tab.0.right" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.0.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561624" />
+    <state width="1532" height="336" key="GridCell.Tab.0.right" timestamp="1589459561624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.0.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
-    <state width="1491" height="373" key="GridCell.Tab.1.bottom" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.0.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561624" />
+    <state width="1532" height="336" key="GridCell.Tab.1.bottom" timestamp="1589459561625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
-    <state width="1491" height="373" key="GridCell.Tab.1.center" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561625" />
+    <state width="1532" height="336" key="GridCell.Tab.1.center" timestamp="1589459561624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.1.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
-    <state width="1491" height="373" key="GridCell.Tab.1.left" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.1.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561624" />
+    <state width="1532" height="336" key="GridCell.Tab.1.left" timestamp="1589459561624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.1.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
-    <state width="1491" height="373" key="GridCell.Tab.1.right" timestamp="1589450524832">
+    <state width="1532" height="336" key="GridCell.Tab.1.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561624" />
+    <state width="1532" height="336" key="GridCell.Tab.1.right" timestamp="1589459561624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="373" key="GridCell.Tab.1.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589450524832" />
+    <state width="1532" height="336" key="GridCell.Tab.1.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589459561624" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1589423701420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
