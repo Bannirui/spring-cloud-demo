@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2da8d3c7-3415-45f6-8f5b-7e8dbfe5f70c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +219,7 @@
       <updated>1589417173172</updated>
       <workItem from="1589417174589" duration="6521000" />
       <workItem from="1589423750111" duration="3566000" />
-      <workItem from="1589427325369" duration="9145000" />
+      <workItem from="1589427325369" duration="9410000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud-dependencies">
       <created>1589418271692</created>
@@ -286,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589435921469</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="readme">
+      <created>1589438975817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589438975817</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +306,8 @@
     <MESSAGE value="添加服务熔断处理" />
     <MESSAGE value="熔断器监视器需要pom增加actuator" />
     <MESSAGE value="zuul过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul过滤器" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589425485509">
@@ -320,10 +326,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589428245987" />
-    <state x="665" y="129" key="CommitChangelistDialog2" timestamp="1589435920363">
+    <state x="665" y="129" key="CommitChangelistDialog2" timestamp="1589438975163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="665" y="129" key="CommitChangelistDialog2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589435920363" />
+    <state x="665" y="129" key="CommitChangelistDialog2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589438975163" />
     <state x="368" y="86" key="DiffContextDialog" timestamp="1589430836740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -384,10 +390,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="214" y="164" width="1040" height="815" key="SettingsEditor/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589419867855" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589435924759">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589438984684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589435924759" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589438984684" />
     <state x="1232" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589429342886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
