@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da8d3c7-3415-45f6-8f5b-7e8dbfe5f70c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/example/spring/cloud/zuul/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/example/spring/cloud/zuul/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/example/spring/cloud/zuul/provider/ServicePaymentFallbackProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-eureka/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +221,7 @@
       <updated>1589417173172</updated>
       <workItem from="1589417174589" duration="6521000" />
       <workItem from="1589423750111" duration="3566000" />
-      <workItem from="1589427325369" duration="6233000" />
+      <workItem from="1589427325369" duration="9145000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud-dependencies">
       <created>1589418271692</created>
@@ -300,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589430864422</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="zuul过滤器">
+      <created>1589435921469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589435921469</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +300,8 @@
     <MESSAGE value="微服务 收银服务" />
     <MESSAGE value="添加服务熔断处理" />
     <MESSAGE value="熔断器监视器需要pom增加actuator" />
-    <option name="LAST_COMMIT_MESSAGE" value="熔断器监视器需要pom增加actuator" />
+    <MESSAGE value="zuul过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul过滤器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589425485509">
@@ -333,10 +320,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589428245987" />
-    <state x="839" y="110" key="CommitChangelistDialog2" timestamp="1589430863425">
+    <state x="665" y="129" key="CommitChangelistDialog2" timestamp="1589435920363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="839" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589430863425" />
+    <state x="665" y="129" key="CommitChangelistDialog2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589435920363" />
     <state x="368" y="86" key="DiffContextDialog" timestamp="1589430836740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -345,38 +332,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589431091280" />
-    <state width="1491" height="286" key="GridCell.Tab.0.bottom" timestamp="1589432965903">
+    <state width="1491" height="286" key="GridCell.Tab.0.bottom" timestamp="1589436629716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965903" />
-    <state width="1491" height="286" key="GridCell.Tab.0.center" timestamp="1589432965902">
+    <state width="1491" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629716" />
+    <state width="1491" height="286" key="GridCell.Tab.0.center" timestamp="1589436629716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.0.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965902" />
-    <state width="1491" height="286" key="GridCell.Tab.0.left" timestamp="1589432965902">
+    <state width="1491" height="286" key="GridCell.Tab.0.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629716" />
+    <state width="1491" height="286" key="GridCell.Tab.0.left" timestamp="1589436629715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.0.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965902" />
-    <state width="1491" height="286" key="GridCell.Tab.0.right" timestamp="1589432965902">
+    <state width="1491" height="286" key="GridCell.Tab.0.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629715" />
+    <state width="1491" height="286" key="GridCell.Tab.0.right" timestamp="1589436629716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.0.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965902" />
-    <state width="1491" height="286" key="GridCell.Tab.1.bottom" timestamp="1589432965903">
+    <state width="1491" height="286" key="GridCell.Tab.0.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629716" />
+    <state width="1491" height="286" key="GridCell.Tab.1.bottom" timestamp="1589436629717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965903" />
-    <state width="1491" height="286" key="GridCell.Tab.1.center" timestamp="1589432965903">
+    <state width="1491" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629717" />
+    <state width="1491" height="286" key="GridCell.Tab.1.center" timestamp="1589436629717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.1.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965903" />
-    <state width="1491" height="286" key="GridCell.Tab.1.left" timestamp="1589432965903">
+    <state width="1491" height="286" key="GridCell.Tab.1.center/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629717" />
+    <state width="1491" height="286" key="GridCell.Tab.1.left" timestamp="1589436629716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.1.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965903" />
-    <state width="1491" height="286" key="GridCell.Tab.1.right" timestamp="1589432965903">
+    <state width="1491" height="286" key="GridCell.Tab.1.left/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629716" />
+    <state width="1491" height="286" key="GridCell.Tab.1.right" timestamp="1589436629717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1491" height="286" key="GridCell.Tab.1.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589432965903" />
+    <state width="1491" height="286" key="GridCell.Tab.1.right/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589436629717" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1589423701420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -397,10 +384,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="214" y="164" width="1040" height="815" key="SettingsEditor/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589419867855" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589430868326">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589435924759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589430868326" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.8.600.760/0.1080.1920.1040@0.0.1920.1040" timestamp="1589435924759" />
     <state x="1232" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589429342886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
