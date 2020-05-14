@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-payment/spring-cloud-service-payment.iml" filepath="$PROJECT_DIR$/spring-cloud-service-payment/spring-cloud-service-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-ticket/spring-cloud-service-ticket.iml" filepath="$PROJECT_DIR$/spring-cloud-service-ticket/spring-cloud-service-ticket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-user/spring-cloud-service-user.iml" filepath="$PROJECT_DIR$/spring-cloud-service-user/spring-cloud-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
     </modules>
   </component>
 </project>

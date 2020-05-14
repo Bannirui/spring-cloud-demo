@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring-cloud-zuul
+
+server:
+  port: 12005
+  servlet:
+    context-path: /zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# zuul configs
+zuul:
+  routes:
+    api-payment:
+      path: /api/payment/**
+      serviceId: spring-cloud-service-payment
+    api-user:
+      path: /api/user/**
+      serviceId: spring-cloud-service-user
+    api-ticket:
+      path: /api/ticket/**
+      serviceId: spring-cloud-service-ticket

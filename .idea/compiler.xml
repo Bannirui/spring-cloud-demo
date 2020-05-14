@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-eureka" />
-        <module name="spring-cloud-service-eureka" />
-        <module name="spring-cloud-service-ticket" />
-        <module name="spring-cloud-service-user" />
+        <module name="spring-cloud-zuul" />
         <module name="spring-cloud-service-payment" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-service-user" />
+        <module name="spring-cloud-service-ticket" />
+        <module name="spring-cloud-service-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="spring-cloud-service-payment" target="1.8" />
       <module name="spring-cloud-service-ticket" target="1.8" />
       <module name="spring-cloud-service-user" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +33,7 @@
       <module name="spring-cloud-service-payment" options="-parameters" />
       <module name="spring-cloud-service-ticket" options="-parameters" />
       <module name="spring-cloud-service-user" options="-parameters" />
+      <module name="spring-cloud-zuul" options="-parameters" />
     </option>
   </component>
 </project>
