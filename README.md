@@ -24,11 +24,11 @@ spring-cloud-demo
 
 * 服务注册 服务发现中心
 
-  ![image-20200514143954776](docs/images/image-20200514143954776.png)
+  ![image-20200514143954776](./docs/images/image-20200514143954776.png)
 
 * 作为server端开启服务端模式
 
-  ![](docs/images/image-20200514142302700.png)
+  ![](./docs/images/image-20200514142302700.png)
 
 ### spring-cloud-service-payment
 
@@ -36,7 +36,7 @@ spring-cloud-demo
 
 * 服务调用feign
 
-  ![服务调用feign](docs/images/image-20200514144040024.png)
+  ![服务调用feign](./docs/images/image-20200514144040024.png)
 
 * 服务熔断hystrix
 
@@ -44,30 +44,30 @@ spring-cloud-demo
 
   * [网址](http://localhost:12003/service-payment/hystrix/)
 
-    ![](docs/images/image-20200514144505958.png)
+    ![](./docs/images/image-20200514144505958.png)
 
   * 监控页面度量
 
-    ![image-20200514144548183](docs/images/image-20200514144548183.png)
+    ![image-20200514144548183](./docs/images/image-20200514144548183.png)
 
 ### spring-cloud-service-ticket
 
 * 票务服务
 
-  ![image-20200514143806683](docs/images/image-20200514143806683.png)
+  ![image-20200514143806683](./docs/images/image-20200514143806683.png)
 
 ### spring-cloud-service-user
 
 * 用户服务
 
-  ![image-20200514143644609](docs/images/image-20200514143644609.png)
+  ![image-20200514143644609](./docs/images/image-20200514143644609.png)
 
 ### spring-cloud-zuul
 
 * 路由功能
 
-  ![image-20200514144718613](docs/images/image-20200514144718613.png)
+  ![image-20200514144718613](./docs/images/image-20200514144718613.png)
 
 * 过滤功能
 
-  ![image-20200514144730979](docs/images/image-20200514144730979.png)
+  ![image-20200514144730979](./docs/images/image-20200514144730979.png)
