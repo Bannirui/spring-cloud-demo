@@ -9,12 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-service-eureka" />
+        <module name="spring-cloud-service-user" />
+        <module name="spring-cloud-service-payment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-cloud-dependencies" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-service-eureka" target="1.8" />
+      <module name="spring-cloud-service-payment" target="1.8" />
+      <module name="spring-cloud-service-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +26,8 @@
       <module name="spring-cloud-dependencies" options="" />
       <module name="spring-cloud-eureka" options="-parameters" />
       <module name="spring-cloud-service-eureka" options="-parameters" />
+      <module name="spring-cloud-service-payment" options="-parameters" />
+      <module name="spring-cloud-service-user" options="-parameters" />
     </option>
   </component>
 </project>

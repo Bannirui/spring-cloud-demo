@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-cloud-service-payment
+
+server:
+  port: 12003
+  servlet:
+    context-path: /service-payment
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+feign:
+  hystrix:
+    enabled: true
