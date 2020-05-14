@@ -6,8 +6,7 @@ server:
   servlet:
     context-path: /service-ticket
 
-eureka:
-  #标记客户端，向注册中心注册
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: c667f390-031f-4ba8-b343-6888f66e6511

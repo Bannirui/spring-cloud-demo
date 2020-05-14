@@ -1,5 +1,6 @@
 package com.example.spring.cloud.service.payment.controller;
 
+import com.alibaba.nacos.api.config.annotation.NacosValue;
 import com.example.spring.cloud.service.payment.service.feign.TicketService;
 import com.example.spring.cloud.service.payment.service.feign.UserService;
 import org.springframework.beans.factory.annotation.Value;
@@ -19,7 +20,7 @@ import javax.annotation.Resource;
 @RequestMapping("payment")
 public class PaymentController {
 
-    @Value("${server.port}")
+    @NacosValue(value = "${server.port}", autoRefreshed = true)
     private Integer port;
 
     @Resource

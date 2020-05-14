@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-zuul
+
+server:
+  port: 12005
+  servlet:
+    context-path: /zuul
+
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: 4b9537e0-42be-4749-a30b-128a25bec68a

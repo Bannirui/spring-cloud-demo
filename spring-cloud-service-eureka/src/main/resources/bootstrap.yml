@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-cloud-service-eureka
+server:
+  port: 8761
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: 2031702a-ca87-403b-b5b6-93dfc021fd01

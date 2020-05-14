@@ -1,12 +1,3 @@
-spring:
-  application:
-    name: spring-cloud-zuul
-
-server:
-  port: 12005
-  servlet:
-    context-path: /zuul
-
 eureka:
   client:
     serviceUrl:
